@@ -1,0 +1,31 @@
+.h1{
+    flex: 1;
+    background-color: var(--bg-color-1);
+    min-height: 220px;
+    padding-top: 10px;
+    padding-right: 20px;
+    overflow-y: scroll;
+}
+.h1 p{
+   display: flex;
+   justify-content: flex-end;
+   line-height: 15px;
+   color: var(--text-color-1);
+}
+.expression{
+    overflow-x: scroll;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.expression p{
+    white-space: nowrap;
+    min-width: 100%;
+    width: fit-content;
+    font-weight: bold;
+}
+.result{
+    font-weight: bold;
+    font-size: 20px; 
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
